@@ -24,7 +24,7 @@ print("(vinit,theta0,dt)=(%7.2lf,%7.2f,%7.2f)" % (vinit,theta0,dt))
 
 # given the boundary conditions at t=0, namely:
 # x(0) = y(0) = 0
-#  vx(0) = vinit * cos(theta0) , vy(0) = vinit * sin(theta0)
+# vx(0) = vinit * cos(theta0) , vy(0) = vinit * sin(theta0)
 # impliment Euler's method for stepping forward in time to calculate the
 # new position of the projectile in steps of dt
 # your simulation should stop at the last time step before y goes negative
